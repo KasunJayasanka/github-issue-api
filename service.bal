@@ -2,7 +2,7 @@ import ballerinax/github;
 import ballerina/http;
 import ballerina/log;
 
-//configurable string githubAccessToken = ?;
+configurable string githubAccessToken = ?;
 
 type SummarizedIssues record {
     int number;
