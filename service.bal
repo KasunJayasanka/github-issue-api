@@ -20,7 +20,7 @@ service / on new http:Listener(9090) {
 
         github:Client githubEp = check new (config = {
             auth: {
-                token: "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"
+                token: githubAccessToken
             }
         });
 
